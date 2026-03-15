@@ -1,0 +1,534 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Privacy Policy for PhysicsCalc - A professional physics calculator app that collects zero data and respects your privacy.">
+    <meta name="keywords" content="PhysicsCalc, privacy policy, physics calculator, privacy">
+    <meta name="author" content="PhysicsCalc">
+    <title>Privacy Policy - PhysicsCalc</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+            line-height: 1.6;
+            color: #1A1A2E;
+            background: linear-gradient(135deg, #667EEA 0%, #764BA2 100%);
+            min-height: 100vh;
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            background: white;
+            border-radius: 20px;
+            box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
+            overflow: hidden;
+        }
+
+        .header {
+            background: linear-gradient(135deg, #0F4C75 0%, #3282B8 100%);
+            color: white;
+            padding: 40px 30px;
+            text-align: center;
+        }
+
+        .header h1 {
+            font-size: 2.5em;
+            margin-bottom: 10px;
+            font-weight: 700;
+        }
+
+        .app-name {
+            color: #BBE1FA;
+            font-size: 1.1em;
+            letter-spacing: 1px;
+        }
+
+        .last-updated {
+            background: rgba(255, 255, 255, 0.1);
+            padding: 10px 20px;
+            border-radius: 25px;
+            display: inline-block;
+            margin-top: 15px;
+            font-size: 0.9em;
+        }
+
+        .content {
+            padding: 50px 40px;
+        }
+
+        .intro {
+            background: linear-gradient(135deg, #E8F8F5 0%, #D5F4E6 100%);
+            border-left: 5px solid #2ECC71;
+            padding: 25px;
+            border-radius: 10px;
+            margin-bottom: 40px;
+        }
+
+        .intro h2 {
+            color: #0F4C75;
+            margin-bottom: 15px;
+            font-size: 1.5em;
+        }
+
+        .intro p {
+            font-size: 1.1em;
+            line-height: 1.8;
+        }
+
+        .section {
+            margin-bottom: 40px;
+        }
+
+        .section h2 {
+            color: #0F4C75;
+            font-size: 1.6em;
+            margin-bottom: 15px;
+            padding-bottom: 10px;
+            border-bottom: 3px solid #BBE1FA;
+            display: flex;
+            align-items: center;
+        }
+
+        .section-number {
+            background: #3282B8;
+            color: white;
+            width: 35px;
+            height: 35px;
+            border-radius: 50%;
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            margin-right: 15px;
+            font-weight: bold;
+            font-size: 0.8em;
+        }
+
+        .section p {
+            margin-bottom: 15px;
+            font-size: 1.05em;
+            text-align: justify;
+        }
+
+        .section ul {
+            margin-left: 20px;
+            margin-bottom: 15px;
+        }
+
+        .section li {
+            margin-bottom: 10px;
+            font-size: 1.05em;
+            line-height: 1.7;
+        }
+
+        .highlight-box {
+            background: #E8F1F5;
+            border-radius: 10px;
+            padding: 20px;
+            margin: 20px 0;
+        }
+
+        .highlight-box h3 {
+            color: #0F4C75;
+            margin-bottom: 15px;
+            font-size: 1.2em;
+        }
+
+        .no-collect {
+            background: linear-gradient(135deg, #FEF5E7 0%, #FCF3CF 100%);
+            border-left: 5px solid #F39C12;
+            padding: 20px;
+            border-radius: 10px;
+            margin: 20px 0;
+        }
+
+        .no-collect ul {
+            list-style: none;
+            margin-left: 0;
+        }
+
+        .no-collect li:before {
+            content: "✗ ";
+            color: #E74C3C;
+            font-weight: bold;
+            margin-right: 10px;
+            font-size: 1.2em;
+        }
+
+        .yes-collect {
+            background: linear-gradient(135deg, #E8F8F5 0%, #D5F4E6 100%);
+            border-left: 5px solid #2ECC71;
+            padding: 20px;
+            border-radius: 10px;
+            margin: 20px 0;
+        }
+
+        .yes-collect ul {
+            list-style: none;
+            margin-left: 0;
+        }
+
+        .yes-collect li:before {
+            content: "✓ ";
+            color: #2ECC71;
+            font-weight: bold;
+            margin-right: 10px;
+            font-size: 1.2em;
+        }
+
+        .summary {
+            background: linear-gradient(135deg, #0F4C75 0%, #3282B8 100%);
+            color: white;
+            padding: 40px;
+            border-radius: 15px;
+            margin-top: 50px;
+        }
+
+        .summary h2 {
+            color: white;
+            border: none;
+            margin-bottom: 25px;
+            font-size: 2em;
+            text-align: center;
+        }
+
+        .summary ul {
+            list-style: none;
+            margin-left: 0;
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 15px;
+        }
+
+        .summary li {
+            background: rgba(255, 255, 255, 0.1);
+            padding: 15px 20px;
+            border-radius: 10px;
+            font-size: 1.05em;
+        }
+
+        .summary li:before {
+            content: "✓ ";
+            color: #2ECC71;
+            font-weight: bold;
+            margin-right: 10px;
+            font-size: 1.3em;
+        }
+
+        .contact {
+            background: #F8F9FA;
+            padding: 30px;
+            border-radius: 10px;
+            text-align: center;
+            margin-top: 40px;
+        }
+
+        .contact h3 {
+            color: #0F4C75;
+            margin-bottom: 15px;
+            font-size: 1.4em;
+        }
+
+        .contact a {
+            color: #3282B8;
+            text-decoration: none;
+            font-weight: 600;
+            font-size: 1.1em;
+        }
+
+        .contact a:hover {
+            text-decoration: underline;
+        }
+
+        .footer {
+            background: #1A1A2E;
+            color: #BBE1FA;
+            text-align: center;
+            padding: 30px;
+            font-size: 0.95em;
+        }
+
+        .footer p {
+            margin-bottom: 10px;
+        }
+
+        strong {
+            color: #0F4C75;
+            font-weight: 600;
+        }
+
+        /* Responsive Design */
+        @media (max-width: 768px) {
+            body {
+                padding: 10px;
+            }
+
+            .header h1 {
+                font-size: 1.8em;
+            }
+
+            .content {
+                padding: 30px 20px;
+            }
+
+            .section h2 {
+                font-size: 1.3em;
+                flex-direction: column;
+                text-align: center;
+            }
+
+            .section-number {
+                margin-bottom: 10px;
+            }
+
+            .summary ul {
+                grid-template-columns: 1fr;
+            }
+        }
+
+        /* Print Styles */
+        @media print {
+            body {
+                background: white;
+                padding: 0;
+            }
+
+            .container {
+                box-shadow: none;
+            }
+
+            .header {
+                background: #0F4C75;
+                -webkit-print-color-adjust: exact;
+                print-color-adjust: exact;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>Privacy Policy</h1>
+            <div class="app-name">PhysicsCalc</div>
+            <div class="last-updated">Last Updated: January 2025</div>
+        </div>
+
+        <div class="content">
+            <div class="intro">
+                <h2>Your Privacy is Our Priority</h2>
+                <p>
+                    This Privacy Policy describes how PhysicsCalc handles information when you use our mobile application. 
+                    We believe in complete transparency and user privacy, which is why we've designed our app to collect 
+                    <strong>absolutely no data</strong> from our users.
+                </p>
+            </div>
+
+            <div class="section">
+                <h2>
+                    <span class="section-number">1</span>
+                    Introduction
+                </h2>
+                <p>
+                    This Privacy Policy describes how PhysicsCalc ("we", "our", or "the app") handles information 
+                    when you use our mobile application. By using PhysicsCalc, you agree to the terms outlined in this policy.
+                </p>
+            </div>
+
+            <div class="section">
+                <h2>
+                    <span class="section-number">2</span>
+                    Information Collection
+                </h2>
+                <p>
+                    <strong>PhysicsCalc does NOT collect, store, or transmit any personal or non-personal information from its users.</strong>
+                </p>
+
+                <div class="no-collect">
+                    <h3>Specifically, we do NOT collect:</h3>
+                    <ul>
+                        <li>Personal identification information (name, email, phone number, etc.)</li>
+                        <li>Device information</li>
+                        <li>Location data</li>
+                        <li>Usage data or analytics</li>
+                        <li>Cookies or tracking technologies</li>
+                        <li>Any other user data</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="section">
+                <h2>
+                    <span class="section-number">3</span>
+                    Data Storage
+                </h2>
+                <p>All calculations performed within PhysicsCalc are:</p>
+                
+                <div class="yes-collect">
+                    <ul>
+                        <li>Processed locally on your device</li>
+                        <li>NOT stored permanently</li>
+                        <li>NOT transmitted to any server</li>
+                        <li>NOT shared with any third party</li>
+                        <li>Cleared when you close the app or navigate away</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="section">
+                <h2>
+                    <span class="section-number">4</span>
+                    Third-Party Services
+                </h2>
+                <p>
+                    PhysicsCalc does NOT use any third-party services. We do not integrate with:
+                </p>
+                <ul>
+                    <li>Analytics services (e.g., Google Analytics, Firebase)</li>
+                    <li>Advertising networks</li>
+                    <li>Social media integrations</li>
+                    <li>Cloud storage services</li>
+                    <li>Any other external services</li>
+                </ul>
+            </div>
+
+            <div class="section">
+                <h2>
+                    <span class="section-number">5</span>
+                    Internet Connectivity
+                </h2>
+                <p>
+                    PhysicsCalc operates <strong>completely offline</strong> and does NOT require internet connectivity. 
+                    The app does NOT make any network requests or transmit any data over the internet.
+                </p>
+            </div>
+
+            <div class="section">
+                <h2>
+                    <span class="section-number">6</span>
+                    Permissions
+                </h2>
+                <p>
+                    PhysicsCalc does NOT request or require any device permissions. The app functions without 
+                    needing access to your camera, storage, location, contacts, or any other device features.
+                </p>
+            </div>
+
+            <div class="section">
+                <h2>
+                    <span class="section-number">7</span>
+                    Children's Privacy
+                </h2>
+                <p>
+                    PhysicsCalc is safe for users of all ages, including children under 13 years of age. 
+                    Since we do not collect any information whatsoever, we do not knowingly collect information 
+                    from children. The app complies with the Children's Online Privacy Protection Act (COPPA).
+                </p>
+            </div>
+
+            <div class="section">
+                <h2>
+                    <span class="section-number">8</span>
+                    Data Security
+                </h2>
+                <p>
+                    Since PhysicsCalc does not collect, store, or transmit any user data, there is no user data 
+                    that could be compromised, stolen, or misused. Your privacy is guaranteed by design.
+                </p>
+            </div>
+
+            <div class="section">
+                <h2>
+                    <span class="section-number">9</span>
+                    Changes to This Privacy Policy
+                </h2>
+                <p>
+                    We may update this Privacy Policy from time to time to reflect changes in our practices or 
+                    for other operational, legal, or regulatory reasons. Any changes will be posted on this page 
+                    with an updated "Last Updated" date. We encourage you to review this Privacy Policy periodically.
+                </p>
+            </div>
+
+            <div class="section">
+                <h2>
+                    <span class="section-number">10</span>
+                    Your Rights
+                </h2>
+                <p>
+                    Since we do not collect any data, there is no data to:
+                </p>
+                <ul>
+                    <li>Access or view</li>
+                    <li>Modify or update</li>
+                    <li>Delete or erase</li>
+                    <li>Export or transfer</li>
+                    <li>Restrict processing of</li>
+                </ul>
+                <p>
+                    You maintain complete control over your device and any calculations you perform, as everything 
+                    happens locally on your device.
+                </p>
+            </div>
+
+            <div class="section">
+                <h2>
+                    <span class="section-number">11</span>
+                    International Users
+                </h2>
+                <p>
+                    PhysicsCalc can be used anywhere in the world. Since we collect no data, there are no 
+                    international data transfer concerns. The app complies with GDPR, CCPA, and other privacy 
+                    regulations by virtue of collecting no personal information.
+                </p>
+            </div>
+
+            <div class="section">
+                <h2>
+                    <span class="section-number">12</span>
+                    Consent
+                </h2>
+                <p>
+                    By using PhysicsCalc, you consent to this Privacy Policy and our practices regarding data 
+                    (or lack thereof). If you do not agree with this policy, please do not use the app.
+                </p>
+            </div>
+
+            <div class="contact">
+                <h3>Contact Us</h3>
+                <p>If you have any questions or concerns about this Privacy Policy, please contact us at:</p>
+                <p><a href="mailto:support@physicscalc.com">support@physicscalc.com</a></p>
+            </div>
+
+            <div class="summary">
+                <h2>Privacy Summary</h2>
+                <p style="text-align: center; margin-bottom: 30px; font-size: 1.1em;">
+                    PhysicsCalc is a privacy-first application that puts you in complete control:
+                </p>
+                <ul>
+                    <li>Collects ZERO data</li>
+                    <li>Requires NO permissions</li>
+                    <li>Works completely OFFLINE</li>
+                    <li>Uses NO third-party services</li>
+                    <li>Stores NOTHING about you</li>
+                    <li>Tracks NOTHING you do</li>
+                </ul>
+                <p style="text-align: center; margin-top: 30px; font-size: 1.2em; font-weight: 600;">
+                    Your privacy is 100% protected because we simply don't collect any information.
+                </p>
+            </div>
+        </div>
+
+        <div class="footer">
+            <p><strong>PhysicsCalc</strong> - Professional Physics Calculator</p>
+            <p>Copyright © 2025 PhysicsCalc. All rights reserved.</p>
+            <p>Made with ❤️ for students and educators worldwide</p>
+        </div>
+    </div>
+</body>
+</html>
